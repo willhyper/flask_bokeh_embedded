@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bokeh = "==0.13.0"
+numpy = "==1.15.1"
+pyparsing = "==2.2.0"
+python-dateutil = "==2.7.3"
+six = "==1.11.0"
+tornado = "==5.1"
+"Jinja2" = "==2.10"
+MarkupSafe = "==1.0"
+PyYAML = "==3.13"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
